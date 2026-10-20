@@ -24,7 +24,7 @@ the hosting project's production environment (and `.env.local` for local work):
   characters. Share it privately with Daniel, never in the repository.
 - `PERFORMERS_SESSION_SECRET`: a separate random secret of at least 32 characters.
 - `PERFORMERS_GITHUB_TOKEN`: a GitHub fine-grained token restricted to
-  `Volta-NYC/papazzio`, with Contents read/write permission. The organization may
+  `Novus-NYC/papazzio`, with Contents read/write permission. The organization may
   require approval. Keep this token with the website manager; Daniel only needs
   the editor password. This credential has repository-level Contents permission;
   the server restricts editor requests to the single schedule file.

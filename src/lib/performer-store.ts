@@ -4,7 +4,7 @@ import initialSchedule from "@/content/performers.json"
 import { validateSchedule, type PerformerSchedule } from "@/lib/performer-schedule"
 
 // The editor can only update this content file, never a client-supplied path.
-const fileUrl = "https://api.github.com/repos/Volta-NYC/papazzio/contents/src/content/performers.json"
+const fileUrl = "https://api.github.com/repos/Novus-NYC/papazzio/contents/src/content/performers.json"
 
 export function performerEditorConfigured() {
   return Boolean(

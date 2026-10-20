@@ -55,7 +55,7 @@ export function SiteFooter() {
           <a className="transition hover:text-cream" href={site.facebookUrl}>Facebook</a>
           <a className="transition hover:text-cream" href={site.instagramUrl}>Instagram</a>
           <a className="transition hover:text-cream" href={site.tiktokUrl}>TikTok</a>
-          <span className="normal-case tracking-normal">Made by <a href="https://www.novusnyc.org/" target="_blank" rel="noreferrer" className="text-volta-green">Novus<span className="sr-only">, opens in a new tab</span></a></span>
+          <span className="normal-case tracking-normal">Made by <a href="https://www.novusnyc.org/" target="_blank" rel="noreferrer" className="text-novus-green">Novus<span className="sr-only">, opens in a new tab</span></a></span>
         </div>
       </div>
     </footer>
